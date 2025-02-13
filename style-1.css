@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: calc(33.333% - 22px);
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.menu-item h3 {
+    margin: 0 0 10px;
+}
+
+.menu-item p {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.menu-item input {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.menu-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.menu-item button:hover {
+    background-color: #218838;
+}
+
+#cart {
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#total {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 1.2em;
+}
+
+#chat-box {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+#chat-messages {
+    height: 100px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+#chat-input {
+    width: calc(100% - 80px);
+    padding: 5px;
+}
+
+#chat-box button {
+    width: 70px;
+    padding: 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#chat-box button:hover {
+    background-color: #218838;
+}
+
+#tgg {
+    text-align: center;
+    justify-content: center;
+}
+
+#trm {
+    text-align: center;
+    justify-content: center;
+}
+
+#jek {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 555px;
+}
